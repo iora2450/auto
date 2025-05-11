@@ -1,0 +1,28 @@
+{
+    "emisor": {
+      "nit": "06141504041047",
+      "nrc": "1560230",
+      "nombre": "TRAMITES Y NEGOCIOS, S.A. DE C.V.",
+      "codActividad": "52291",
+      "descActividad": "Agencias de tramitaciones aduanales",
+      "nombreComercial": "TRAMITES Y NEGOCCIOS",
+      "tipoEstablecimiento": "02",
+      "direccion": {
+        "departamento": "06",
+        "municipio": "23",
+        "complemento": "RESIDENCIA DE MIRALVAELL II NO 4 79 AV.NOTE EL ROBLE"
+      },
+      "telefono": "22844959",
+      "correo": "elena_3006@hotmail.com",
+      "codEstableMH": null,
+      "codEstable": null,
+      "codPuntoVentaMH": null,
+      "codPuntoVenta": null,
+      "emailauto":"SI",
+      "keypublica": "trami1tes2025.p",
+      "keyprivada": "trami1tes2025.pp",
+      "api": "Tramites2025.pp",
+      "ambiente": "00"
+    }
+  }
+  

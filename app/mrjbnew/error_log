@@ -1,0 +1,625 @@
+[07-Aug-2021 06:24:56 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home3/sofinvercs/public_html/demo/storage/framework/views/93a4e6687b8be11ea43e040caba99e186f3d19a8.php on line 58
+[07-Aug-2021 06:25:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home3/sofinvercs/public_html/demo/storage/framework/views/93a4e6687b8be11ea43e040caba99e186f3d19a8.php on line 58
+[07-Aug-2021 06:25:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home3/sofinvercs/public_html/demo/storage/framework/views/93a4e6687b8be11ea43e040caba99e186f3d19a8.php on line 58
+[07-Aug-2021 06:26:03 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home3/sofinvercs/public_html/demo/storage/framework/views/93a4e6687b8be11ea43e040caba99e186f3d19a8.php on line 58
+[07-Aug-2021 07:45:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 132124672 bytes) in /home3/sofinvercs/public_html/demo/app/Http/Controllers/ReportController.php on line 732
+[07-Aug-2021 07:45:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 132124672 bytes) in /home3/sofinvercs/public_html/demo/app/Http/Controllers/ReportController.php on line 732
+[07-Aug-2021 07:46:02 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 132124672 bytes) in /home3/sofinvercs/public_html/demo/app/Http/Controllers/ReportController.php on line 732
+[20-Sep-2023 15:22:49 America/El_Salvador] PHP Fatal error:  Cannot use SimpleSoftwareIO\QrCode\Facades\QrCode as QrCode because the name is already in use in /home2/mrjbinve/public_html/sistema/app/Http/Controllers/QuedanPurchaseController.php on line 23
+[06-Mar-2024 13:20:26 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:20:50 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:20:58 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:20:59 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:21:06 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:21:06 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:23:54 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:24:03 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:42:10 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:42:30 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:42:33 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:42:48 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:42:51 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:43:01 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:43:16 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:43:52 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:06 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:06 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:15 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:17 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:20 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:24 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:44:26 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:46:13 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:46:16 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:47:36 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:50:00 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 13:54:37 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 14:06:46 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 15:12:20 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 15:12:26 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 15:12:36 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 16:49:06 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:21:40 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:21:44 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:24:26 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:26:06 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:36:30 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:37:00 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:37:01 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[06-Mar-2024 17:37:07 America/El_Salvador] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1277
+Stack trace:
+#0 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/mrjbinve...', 1277)
+#1 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(571): include('/home2/mrjbinve...')
+#2 /home2/mrjbinve/public_html/sistema/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/mrjbinve...')
+#3 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/helpers.php(109): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(219): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(156): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(140): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/mrjbinve/public_html/sistema/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 {main} in /home2/mrjbinve/public_html/sistema/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[15-Jul-2024 02:43:32 America/El_Salvador] PHP Fatal error:  Cannot redeclare App\Http\Controllers\SaleController::genInvoice() in /home/ltygkxsm/public_html/mrjb/app/Http/Controllers/SaleController.php on line 5239
+[15-Jul-2024 02:46:01 America/El_Salvador] PHP Fatal error:  Cannot redeclare App\Http\Controllers\SaleController::genInvoice() in /home/ltygkxsm/public_html/mrjb/app/Http/Controllers/SaleController.php on line 5239

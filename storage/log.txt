@@ -1,0 +1,267 @@
+[2024-05-22 00:04:03] Error al enviar al ministerio de hacienda
+json_variable: '
+                    
+                            {
+                             
+                                "nit": "06140203741144",
+                                "activo": "true",
+                                "passwordPri": "eL=23=sO20-b",
+                                        "dteJson": {
+                    
+                                        "identificacion": {
+                                            "version": 1,
+                                            "ambiente": "00",
+                                            "tipoDte": "01",
+                                            "numeroControl": "DTE-01-00000000-000000000000020",
+                    
+                                            "codigoGeneracion": "7820FEE6-C08E-4BAD-8264-A37F948BB65E",
+                                            "tipoModelo": 1,
+                                            "tipoOperacion": 1,
+                                            "tipoContingencia": null,
+                                            "motivoContin": null,
+                                            "fecEmi": "2024-05-21",
+                                            "horEmi": "20:32:14",
+                                            "tipoMoneda": "USD"
+                    
+                                        },
+                                        "documentoRelacionado": null,
+                                        "emisor": {
+                                            "nit": "06140203741144",
+                                            "nrc": "1860102",
+                                            "nombre": "Sonia Elizabeth landaverde Sanchez",
+                                            "codActividad": "47739",
+                                            "descActividad": "venta al por menor de otros productos n.c.p",
+                                            "nombreComercial": "SONIA LANDAVERDE",
+                                            "tipoEstablecimiento": "02",
+                                            "direccion": {
+                                              "departamento": "06",
+                                              "municipio": "12",
+                                              "complemento": "COL. EL MIRADOR PJE 5 CASA 8"
+                                            },
+                                            "telefono": "73969493",
+                                            "correo": "sonia.landaverde96@gmail.com",
+                                            "codEstableMH": null,
+                                            "codEstable": null,
+                                            "codPuntoVentaMH": null,
+                                            "codPuntoVenta": null
+                                        },
+                                        "receptor": {
+                                          
+                                            "nrc": "362085",
+                                            "nombre": "ASOCIACION AGAPE DE EL SALVADOR1",
+                                            "codActividad": "94990",
+                                            "descActividad": "Actividades de asociaciones n.c.p.",
+                                            "tipoDocumento": "36",
+                                            "numDocumento": "06140504840048",
+                                            "direccion": {
+                                                "departamento": "03",
+                                                "municipio": "16",
+                                                "complemento": "KM. 63, CARRETERA DE SAN SALVADOR A SONSONATE, SONZACATE, SONSONATE"
+                                            },
+                                            "telefono": "24298700",
+                                            "correo": "sonia.landaverde96@gmail.com"
+                                            },
+                                        "otrosDocumentos": null,
+                                        "ventaTercero": {
+                        "nit":"06143009941026",
+                        "nombre":"Bolsa de Productos de el salvador, s.a. de c.c."
+                    },
+                                        "cuerpoDocumento": [{"numItem":1,"tipoItem":1,"numeroDocumento":null,"codigo":"79018412","codTributo":null,"descripcion":"ASESORIA","cantidad":1,"uniMedida":59,"precioUni":113,"montoDescu":0,"ventaNoSuj":0,"ventaExenta":0,"ventaGravada":113,"tributos":null,"ivaItem":13,"psv":0,"noGravado":0}],
+                                        "resumen": {
+                                            "totalNoSuj": 0,
+                                            "totalExenta": 0,
+                                            "totalGravada": 113,
+                                            "subTotalVentas": 113,
+                                            "descuNoSuj": 0,
+                                            "descuExenta": 0,
+                                            "descuGravada": 0,
+                                            "porcentajeDescuento": 0,
+                                            "totalDescu": 0,
+                                            "tributos": null,
+                                            "subTotal": 113,
+                                      
+                                            "ivaRete1": 0,
+                                            "reteRenta": 0,
+                                            "montoTotalOperacion": 113,
+                                            "totalNoGravado": 0,
+                                            "totalPagar": 113,
+                                            "totalLetras": "CIEN Y TRECE DÓLARES ",
+                                            "saldoFavor": 0,
+                                            "condicionOperacion": 1,
+                                            "totalIva": 13,
+                                            "pagos": [{
+                                                "codigo": "01",
+                                                "montoPago": 113,
+                                                "plazo": null,
+                                                "referencia": null,
+                                                "periodo": null
+                                            }],
+                                              "numPagoElectronico": null
+                                        },
+                    
+                                            "extension": {
+                                                "nombEntrega": null,
+                                                "docuEntrega": null,
+                                                "nombRecibe": null,
+                                                "docuRecibe": null,
+                                                "observaciones": null,
+                                                "placaVehiculo": null
+                                            },
+                                            "apendice": null
+                    
+                                        }
+                                       
+                                    }'
+dataresult: array (
+  'version' => 2,
+  'ambiente' => '00',
+  'versionApp' => 2,
+  'estado' => 'RECHAZADO',
+  'codigoGeneracion' => '7820FEE6-C08E-4BAD-8264-A37F948BB65E',
+  'selloRecibido' => NULL,
+  'fhProcesamiento' => '22/05/2024 00:04:04',
+  'clasificaMsg' => '11',
+  'codigoMsg' => '004',
+  'descripcionMsg' => '[identificacion.codigoGeneracion] YA EXISTE UN REGISTRO CON ESE VALOR',
+  'observaciones' => 
+  array (
+  ),
+)
+data: array (
+  'nit' => '06140203741144',
+  'activo' => 'true',
+  'passwordPri' => 'eL=23=sO20-b',
+  'dteJson' => 
+  array (
+    'identificacion' => 
+    array (
+      'version' => 1,
+      'ambiente' => '00',
+      'tipoDte' => '01',
+      'numeroControl' => 'DTE-01-00000000-000000000000020',
+      'codigoGeneracion' => '7820FEE6-C08E-4BAD-8264-A37F948BB65E',
+      'tipoModelo' => 1,
+      'tipoOperacion' => 1,
+      'tipoContingencia' => NULL,
+      'motivoContin' => NULL,
+      'fecEmi' => '2024-05-21',
+      'horEmi' => '20:32:14',
+      'tipoMoneda' => 'USD',
+    ),
+    'documentoRelacionado' => NULL,
+    'emisor' => 
+    array (
+      'nit' => '06140203741144',
+      'nrc' => '1860102',
+      'nombre' => 'Sonia Elizabeth landaverde Sanchez',
+      'codActividad' => '47739',
+      'descActividad' => 'venta al por menor de otros productos n.c.p',
+      'nombreComercial' => 'SONIA LANDAVERDE',
+      'tipoEstablecimiento' => '02',
+      'direccion' => 
+      array (
+        'departamento' => '06',
+        'municipio' => '12',
+        'complemento' => 'COL. EL MIRADOR PJE 5 CASA 8',
+      ),
+      'telefono' => '73969493',
+      'correo' => 'sonia.landaverde96@gmail.com',
+      'codEstableMH' => NULL,
+      'codEstable' => NULL,
+      'codPuntoVentaMH' => NULL,
+      'codPuntoVenta' => NULL,
+    ),
+    'receptor' => 
+    array (
+      'nrc' => '362085',
+      'nombre' => 'ASOCIACION AGAPE DE EL SALVADOR1',
+      'codActividad' => '94990',
+      'descActividad' => 'Actividades de asociaciones n.c.p.',
+      'tipoDocumento' => '36',
+      'numDocumento' => '06140504840048',
+      'direccion' => 
+      array (
+        'departamento' => '03',
+        'municipio' => '16',
+        'complemento' => 'KM. 63, CARRETERA DE SAN SALVADOR A SONSONATE, SONZACATE, SONSONATE',
+      ),
+      'telefono' => '24298700',
+      'correo' => 'sonia.landaverde96@gmail.com',
+    ),
+    'otrosDocumentos' => NULL,
+    'ventaTercero' => 
+    array (
+      'nit' => '06143009941026',
+      'nombre' => 'Bolsa de Productos de el salvador, s.a. de c.c.',
+    ),
+    'cuerpoDocumento' => 
+    array (
+      0 => 
+      array (
+        'numItem' => 1,
+        'tipoItem' => 1,
+        'numeroDocumento' => NULL,
+        'codigo' => '79018412',
+        'codTributo' => NULL,
+        'descripcion' => 'ASESORIA',
+        'cantidad' => 1,
+        'uniMedida' => 59,
+        'precioUni' => 113,
+        'montoDescu' => 0,
+        'ventaNoSuj' => 0,
+        'ventaExenta' => 0,
+        'ventaGravada' => 113,
+        'tributos' => NULL,
+        'ivaItem' => 13,
+        'psv' => 0,
+        'noGravado' => 0,
+      ),
+    ),
+    'resumen' => 
+    array (
+      'totalNoSuj' => 0,
+      'totalExenta' => 0,
+      'totalGravada' => 113,
+      'subTotalVentas' => 113,
+      'descuNoSuj' => 0,
+      'descuExenta' => 0,
+      'descuGravada' => 0,
+      'porcentajeDescuento' => 0,
+      'totalDescu' => 0,
+      'tributos' => NULL,
+      'subTotal' => 113,
+      'ivaRete1' => 0,
+      'reteRenta' => 0,
+      'montoTotalOperacion' => 113,
+      'totalNoGravado' => 0,
+      'totalPagar' => 113,
+      'totalLetras' => 'CIEN Y TRECE DÓLARES ',
+      'saldoFavor' => 0,
+      'condicionOperacion' => 1,
+      'totalIva' => 13,
+      'pagos' => 
+      array (
+        0 => 
+        array (
+          'codigo' => '01',
+          'montoPago' => 113,
+          'plazo' => NULL,
+          'referencia' => NULL,
+          'periodo' => NULL,
+        ),
+      ),
+      'numPagoElectronico' => NULL,
+    ),
+    'extension' => 
+    array (
+      'nombEntrega' => NULL,
+      'docuEntrega' => NULL,
+      'nombRecibe' => NULL,
+      'docuRecibe' => NULL,
+      'observaciones' => NULL,
+      'placaVehiculo' => NULL,
+    ),
+    'apendice' => NULL,
+  ),
+)
+================================================================================
